@@ -4,6 +4,8 @@ import mongoose from "mongoose"
 import dotenv from "dotenv"
 dotenv.config()
 
+import { postSignup, postLogin } from "./controllers/user.js"
+import { postStudent, getStudents, deleteStudent } from "./controllers/student.js"
 
 const app = express();
 app.use(express.json());
@@ -28,6 +30,14 @@ app.get("/", (req, res)=>{
 })
 
 app.post("/signup", postSignup)
+
+app.post("/login", postLogin)
+
+app.post("/student", postStudent)
+
+app.get("/students", getStudents)
+
+app.delete("/student/:id", deleteStudent)
 
 const PORT = process.env.PORT || 5000;
 
