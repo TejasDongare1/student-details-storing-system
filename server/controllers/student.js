@@ -2,7 +2,7 @@ import Student from "../models/Student.js";
 import User from "../models/User.js";
 
 const postStudent = async(req, res)=>{
-    const {name, age, grade, address, phone, email, branch, photo} = req.body;
+    const {name, age, grade, address, phone, email, branch, photo, user} = req.body;
 
     const student = new Student({
         name,
@@ -12,7 +12,8 @@ const postStudent = async(req, res)=>{
         phone,
         email,
         branch,
-        photo
+        photo, 
+        user
     });
 
     try{

@@ -1,0 +1,105 @@
+.student-card{
+    height: 190px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 30px;
+    box-shadow: grey 0px 0px 5px;
+    position: relative;
+    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+    background-color: #f2f2f2;
+    transition: ease-in-out .5s;
+}
+
+.student-card:hover{
+    transform: scale(1);
+    box-shadow: black 0px 0px 10px;
+}
+.name{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    font-size: 30px;
+}
+
+.email{
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    font-size: 25px;
+}
+.grade{
+    position: absolute;
+    left: 160px;
+    top: 110px;
+    font-size: 25px;
+}
+.photo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 138px;
+    height: 138px;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 5px;
+}
+.branch{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: black 0px 0px 5px;
+}
+.phone{
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: red ;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: black 0px 0px 5px;
+}
+.date{
+    position: absolute;
+    right: 10px;
+    top: 130px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: black 0px 0px 5px;
+}
+.address{
+    position: absolute;
+    left: 5px;
+    top: 142px;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.delete-icon{
+    position: absolute;
+    right: 100px;
+    top: 193px;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 25px;
+}
+.delete-icon:hover{
+    transform: scale(1.1);
+}

@@ -43,7 +43,7 @@ function Signup() {
         <div>
             <h1 className='heading'>Signup Now</h1>
 
-            <form className='form'>
+            <form className='signup-form'>
                 <input type="text"
                     placeholder="Full Name"
                     className='user-input'
