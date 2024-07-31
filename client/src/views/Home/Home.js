@@ -58,9 +58,9 @@ function Home() {
           localStorage.clear()
           toast.success("Logged out Successfully")
 
-          setTimeout(() => {
-            window.location.href = "/login"
-          }, 1000)
+          // setTimeout(() => {
+          //   window.location.href = "/login"
+          // }, 1000)
         }}>
           Logout
         </span>
