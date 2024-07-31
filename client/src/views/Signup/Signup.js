@@ -73,7 +73,7 @@ function Signup() {
                     onClick={signup}
                 >Signup</button>
                 <br />
-                <Link to="/login" className='link'>Already have an Account? Login</Link>
+                {/* <Link to="/login" className='link'>Already have an Account? Login</Link> */}
             </form>
             <Toaster />
         </div>
