@@ -133,7 +133,7 @@ function AddStudent() {
             <button type="button" className='btn' onClick={addStudent}>Add Student's Details</button>
         </form>
         </div>
-        <img src={StudentImg} alt="" className='student-img'/>
+        {/* <img src={StudentImg} alt="" className='student-img'/> */}
         <Toaster />
     </div>
   )
